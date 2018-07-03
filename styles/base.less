@@ -54,6 +54,10 @@ atom-text-editor {
 
 // Syntax styles
 
+.syntax--boolean {
+    color: @blue;
+}
+
 .syntax--comment {
   color: @light-gray;
 }
@@ -74,7 +78,7 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--unit {
-    color: @orange;
+    color: @blue;
   }
 }
 
@@ -83,7 +87,7 @@ atom-text-editor {
 }
 
 .syntax--constant {
-  color: @orange;
+  color: @blue;
 
   &.syntax--character.syntax--escape {
     color: @cyan;
@@ -131,7 +135,7 @@ atom-text-editor {
     color: @cyan;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @orange;
+      color: @blue;
     }
   }
 
@@ -241,7 +245,7 @@ atom-text-editor {
   }
 
   &.syntax--link {
-    color: @orange;
+    color: @blue;
   }
 
   &.syntax--require {
@@ -271,7 +275,7 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @orange;
+    color: @blue;
     font-weight: bold;
   }
 
@@ -301,7 +305,7 @@ atom-text-editor {
   }
 
   &.syntax--quote {
-    color: @orange;
+    color: @blue;
   }
 
   &.syntax--raw.syntax--inline {
