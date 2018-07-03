@@ -1,13 +1,22 @@
 {
   "name": "lemon-juice-syntax",
   "theme": "syntax",
-  "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "version": "0.1.0",
+  "description": "A juicy and bright theme for the Atom text editor",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "lemon",
+    "juice",
+    "bright",
+    "colorful",
+    "yellow",
+    "green",
+    "blue",
+    "summer",
+    "light"
   ],
-  "repository": "https://github.com/atom/lemon-juice-syntax",
+  "repository": "git@github.com:gannimet/lemon-juice-syntax.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
