@@ -16,7 +16,7 @@
     "summer",
     "light"
   ],
-  "repository": "git@github.com:gannimet/lemon-juice-syntax.git",
+  "repository": "https://github.com/gannimet/lemon-juice-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
